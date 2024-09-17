@@ -1,0 +1,31 @@
+{
+  "name": "@bgmt/eslint-config",
+  "version": "0.0.1",
+  "description": "Opinionated eslint configuration.",
+  "main": "eslint.config.mjs",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Matteo Gobbo <info@matteogobbo.it>",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint/js": "^9.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.10.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
