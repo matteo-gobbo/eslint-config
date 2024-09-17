@@ -1,6 +1,6 @@
 {
   "name": "@bgmt/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Opinionated eslint configuration.",
   "main": "eslint.config.mjs",
   "repository": {
