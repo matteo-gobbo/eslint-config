@@ -3,13 +3,22 @@
   "version": "0.0.1",
   "description": "Opinionated eslint configuration.",
   "main": "eslint.config.mjs",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matteo-gobbo/eslint-config.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "eslint-configuration",
+    "typescript",
+    "linter"
   ],
   "author": "Matteo Gobbo <info@matteogobbo.it>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@eslint/js": "^9.10.0",
     "@typescript-eslint/eslint-plugin": "^8.5.0",
